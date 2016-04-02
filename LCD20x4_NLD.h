@@ -1,6 +1,6 @@
-char *PIDName[]   ={"Use ", "Constante kP", "Constante kI", "Constante kD", "SampleTime  ", "WindowSet ms", "Heat in Boil", "Calibreren " , "Hysteresis "};
+char *PIDName[]   ={"Type", "Constante P", "Constante I", "Constante D", "SampleTime  ", "WindowSet  ", "Kook PWM  ", "Calibreren " , "Hysteresis "};
 char *stageName[] ={"Maisch In   ", "Phytase   ", "Glucanase ", "Protease  ", "\xE2""Amylase  ", "\xE0""Amylase1 ", "\xE0""Amylase2 ", "Maisch Uit  ", "Koken     ", "Koelen  ", "Whirlpool "};
-char *unitName[]  ={"Eenheid", "Sensor     ", "Kook Temp  ", "Kook Temp  ", "Pump Cyclus", "Pump Rust  ", "Pmp PreMash", "Pmp Maisch ", "Pmp Mashout", "Pmp koken  ", "Pomp Stop  ", "Pomp Stop  ", "PID Pipe   ", "Oversl Mout   ", "Oversl Verwijder", "Oversl Iodi", "IodineTijd " , "Circuleer  "};
+char *unitName[]  ={"Eenheid", "Sensor     ", "Kook Temp  ", "Kook Temp  ", "Pump Cyclus", "Pump Rust  ", "Pmp PreMaisch", "Pmp Maisch ", "Pmp Maischuit", "Pmp koken  ", "Pomp Stop  ", "Pomp Stop  ", "PID Pipe   ", "Oversl Mout   ", "Oversl verw.", "Oversl Test", "IodineTijd " , "Circuleer  "};
 
 byte HeatONOFF[8]    = {B00000, B01010, B01010, B01110, B01110, B01010, B01010, B00000};  // [5] HEAT symbol
 byte RevHeatONOFF[8] = {B11111, B10101, B10101, B10001, B10001, B10101, B10101, B11111};  // [6] reverse HEAT symbol
